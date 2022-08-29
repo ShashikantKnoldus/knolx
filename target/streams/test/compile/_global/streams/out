@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/shashikant/Desktop/knolx-service/src/test/scala/com/knoldus/services/session/NewSessionServiceSpec.scala:12:48: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.knoldus.domain.session.sessionState.PENDINGFORADMIN[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

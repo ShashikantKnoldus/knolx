@@ -1,0 +1,950 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.usermanagement.NewUserRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.session.CategoryServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.info.InfoRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.slot.SlotServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.user.KnolxUserAnalysisRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.session.CategoryRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.session.NewSessionServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.session.CalendarServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.session.MeetingServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.TryExtensionsSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.user.KnolxUserAnalysisServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.json.CommonFormatsSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.recommendation.RecommendationRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.session.NewSessionRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSlotServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSlotService#CreateSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create new slot (2 seconds, 383 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if user is unauthorized (115 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSlotService#UpdateSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update the slot successfully (89 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if slot does not exist (145 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if user is unauthorized (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSlotService#DeleteSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete the slot if that slot is not booked (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if the slot is booked (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if the slot does not exist (61 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an error if the user is unauthorized (47 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#GetPrimaryCategories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all categories (2 seconds, 80 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#AddPrimaryCategories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add given category (96 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error on adding a given category (30 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#DeletePrimaryCategories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete given category (109 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in deleting given category (67 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#DeletePrimaryCategories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return primary category delete error (74 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#DeletePrimaryCategories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should don't delete given category (31 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#ModifyPrimaryCategories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update given category (182 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in update a given category (33 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#ModifyPrimaryCategories[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should don't update given category (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#GetSubCategoryByPrimaryCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all subCategory of given category (43 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#GetSubCategoryByPrimaryCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return category not found error (70 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#AddSubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add given subCategory (40 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in adding a given subCategory (33 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#AddSubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return category not found error (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#AddSubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return subCategory already exist error (40 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#ModifySubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return subCategory not found error (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#ModifySubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return subCategory already exist error (30 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#ModifySubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update given subCategory (32 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in subCategory updating (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#DeleteSubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete given subCategory (140 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error on delete a given subCategory (81 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#DeleteSubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return subCategory not found error (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#DeleteSubCategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return category not found error  (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryService#GetTopicsBySubcategory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return topics of sessions of given subCategory   (43 milliseconds)[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.feedbackform.FeedbackFormReportRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mInfoRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET /status endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (2 seconds, 244 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET /health endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return healthy flag (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return unhealthy flag (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewUserRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET/ get all users[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all user's data (2 seconds, 196 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (63 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for User Not Found[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (42 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Internal Server Error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (23 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Comparison between User Sessions Response [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should comparison between Responses with core member and non core member (2 seconds, 186 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in comparing between Responses with core member and non core member (111 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Ban count of User [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return Ban count of users (76 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error for Ban count of users (69 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/total meetups count of User [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return meetups count of users (53 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error on meetups count of users (126 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/total knolx count of User [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return knolx count of users (48 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error on knolx count of users (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/total did not attend count of User [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return count of users not attended sessions (50 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error on count of users not attended sessions (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for User Analysis AccessDeniedError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for NotFound error [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for BadRequest [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#InsertFreeSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should insert free slot (2 seconds, 81 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in insert free slot (101 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#InsertSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should insert notification (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#UpdateSessionForApprove[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update session (48 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#UpdateSessionForApprove[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (101 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#GetAllFreeSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all free slot (44 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#UpadetDateForPendingSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update date for pending session (77 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#UpadetDateForPendingSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session not found error (202 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#GetAllSessionsWithSearch[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all sessions (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in getting all sessions (47 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#GetAllSessionsWithoutSearch[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all sessions (84 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#GetPendingSessionCount[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return no of pending session (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#GetSessionById[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session of given id (46 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#GetSessionById[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session not found error (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#DeclineSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should decline given session (42 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should error in declining a given session (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mReturnErrorCalendarService#DeleteSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should error in deleting a slot of a given session (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete slot of a given session (53 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#DeclineSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session not found error (137 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#DeleteSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete slot (61 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#DeleteSlot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return slot not found error (66 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSessionService#SendEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send email to admin/superUser (30 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarService#GetSessionInMonth[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all sessions in given month (41 milliseconds)[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.feedbackform.FeedbackFormResponseServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCategoryRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /category endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return primary categories (2 seconds, 166 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /category endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (66 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /category endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add given category (125 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /category endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (61 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /category/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update given category (107 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /category/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (152 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelete /category/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete given primary categories (33 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelete /category/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /subCategory endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return topics of subCategory (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /subCategory endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (30 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /subCategory endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return subCategories of given category (69 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /subCategory endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error with no subCategory (51 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /subCategory endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add given subCategory (90 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /subCategory endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (55 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /subCategory/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update given subCategory (86 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /subCategory/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should error (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelete /subCategory/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete given subCategory (90 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelete /subCategory/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (59 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Primary category not found [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for subCategory not found [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (42 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for primary category already exist [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for subCategory already exist [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for primary category delete error  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (41 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error non authorized [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (40 milliseconds)[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.ClientCredentilaSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.knolxanalysis.KnolxAnalysisServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.feedbackform.FeedbackFormServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#getApprovedSessions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return upcoming approved sessions (2 seconds, 374 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (96 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#getRequestedSessions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sessions pending for approval (191 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (64 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#fetchSessionTags[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return matching tags (114 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (50 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#getSessions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return upcoming sessions (162 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return past sessions (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#getUserSessions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return user upcoming sessions (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return user past sessions (243 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (70 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#bookSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return booked session (95 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return mandatory field not found error (87 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (51 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should NewSessionService#GetSessionbyId[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return session by Id (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return error department by Id (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#UpdateSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give updated session (53 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionService#UpdateSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session not found error (36 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUpdate users session[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give session with updated details (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give session with single updated details (50 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session not found error (40 milliseconds)[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.feedbackform.FeedbackFormResponseRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.statistic.StatisticalRouteSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.scheduler.SchedulerServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.usermanagemant.NewUserServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.feedbackform.FeedbackFormRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.SortBySpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.usermanagemant.UserManagementServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.mailservice.MailerServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.session.CalendarRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.knolxanalysis.KnolxAnalysisRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.StringExtensionsSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.feedbackform.FeedbackFormReportServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.recommendation.RecommendationServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.BaseRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.ThrowableExtensionsSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.validation.OptionSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.usermanagement.UserManagementRoutesSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.info.InfoServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.json.EnumFormatBuilderSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.routes.slot.SlotRouteSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.services.statistic.StatisticServiceSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.utils.DurationConverterSpec, org.scalatest.tools.Framework$$anon$1@287db1fb, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTryExtensionsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTryOps#toFuture[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Success to Future properly (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Failure to Future properly (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTryObjOps#sequence[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert List[Try] to Try[List] properly (2 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#Compare User Session Feedback Responses [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compare responses from core member and non core member (438 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should error in comparing a responses from core member and non core member (104 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#get Total Meetups Sessions User[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get total meetups sessions given by users (44 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#get Total Meetups Sessions User[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get total meetups sessions given by users for empty seq (208 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in getting total meetups sessions given by users for empty seq (72 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#get Total Knolx sessions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get total knolx sessions given by users (54 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in total knolx sessions given by users (48 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#get Total Knolx sessions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get total knolx sessions given by users for empty seq (36 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#get TotalBan Count of User[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get total ban Count of Users by MailId (98 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should access denied in getting total ban Count of Users by MailId (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#get TotalBan Count of User[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (55 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxUserAnalysisService#get Not attended sessions Count of User[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get total not attended sessions Count of Users by MailId (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in getting total not attended sessions Count of Users by MailId (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCommonFormatsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDurationFormat#reads[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should deserialize Duration properly (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not deserialize incorrect string (5 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not deserialize not a string (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDurationFormat#writes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize Duration properly (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFloatWrites#writes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize Float properly (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTimeUnitFormat#reads[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should deserialize TimeUnit properly (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not deserialize incorrect string (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not deserialize not a string (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDurationFormat#writes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize TimeUnit properly (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFiniteDurationFormat#reads[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should deserialize FiniteDuration properly (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFiniteDurationFormat#writes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize FiniteDuration properly (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /add Recommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should suggest Recommendation by post directive (329 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /add Recommendation for Error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should suggest Recommendation by post directive for error (38 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET /get recommendation [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return recommendation (32 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET /get recommendation error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return recommendation error (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /approve recommendation endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (49 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /approve recommendation for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /decline recommendation endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /decline recommendation endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error while declining recommendation (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /approving recommendation for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (67 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /pending recommendation endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (29 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /pending recommendation for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (31 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /done recommendation endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /done recommendation for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET /all-pending-recommendation status endpoint [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/error message for all-pending-recommendation [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error for all-pending-recommendation  (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /book-recommendation endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /book-ecommendation for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /cancel-booked-recommendation endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /cancel-booked-recommendation for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (33 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/all recommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should list all recommendation (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/all recommendation endpoint for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should list all recommendation (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/getVote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status  (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/getVote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error status  (38 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /upVote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status  (32 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /upVote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error status  (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/downVote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status  (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/downVote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error status  (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost/updatevote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error status  (39 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost/updatevote rest endpoint status  [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return result (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for RecommendationError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for InvalidRecommendation [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (9 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for RecommendationAccessDeniedError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (7 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for RecommendationNotFoundError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (43 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewSessionRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /sessions/manage endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sessions pending for approval when search is defined (379 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sessions pending for approval when search is not defined (92 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return approved upcoming sessions when search is defined (53 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return approved upcoming sessions when search is not defined (57 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 401 error for filter requested (50 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 401 error for filter upcoming (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /sessions/tags endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return matching tags (59 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (63 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /sessions/ endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return upcoming sessions when search is defined (71 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return past sessions when search is defined (41 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return upcoming sessions when search is not defined (31 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return past sessions when search is not defined (67 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (31 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /sessions/my endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return user upcoming sessions  (55 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return user past sessions  (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /sessions/bookSession endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should book session  (80 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should mandatory field not found error  (50 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (72 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut sessions/update-session endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return updated session (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut sessions/update-session endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (75 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /getSession endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session (70 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /getSession endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (58 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUpdate the session for user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the session with the updated details (105 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the session with the single updated detail (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the session with the two updated detail (49 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (55 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Access Denied [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for InternalServerError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (39 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Slot Not Found [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (50 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Slot Not Available [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Filter Not Found [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Not Found [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Mandatory Field Found [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormReportRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Reports for session by user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should manage user FeedbackReports (99 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Return error for Reports for session by user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get error manage user FeedbackReports (71 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Fetch Reports by session Id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should manage user FeedbackReports (42 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/return error for Fetch Reports by session Id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in manage user FeedbackReports (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Manage All user reports[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should manage all  user FeedbackReports (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/return error for Manage All user reports[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should checked error for manage all  user FeedbackReports (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Manage All user Feedbackreports[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should manage all  user FeedbackReports (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/return error in Manage All user Feedbackreports[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should checked error in manage all  user FeedbackReports (23 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/fetch Report for All user reports[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch all  user FeedbackResponses (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/return error for fetch Report for All user reports[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should checked error in fetch all  user FeedbackResponses (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for FeedbackAccessDeniedError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for NotFound error [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (36 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for BadRequest [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for user not found [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormResponseServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormResponseService#SessionFeedbackResponse [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  checked sanitisedFeedbackResponses  (279 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch FeedbackFormData Responses  (46 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in fetching FeedbackFormData Responses  (55 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get Ban users in database  (44 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send email to user  (41 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update rating if coreMember (40 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all active form for today with ban user (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all active form for today (46 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store feedback responses from users with update method (135 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store feedback responses from users for create route (70 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get All Response Emails Per Session (103 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mClientCredentilaSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcredential[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check credential  (64 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxAnalysisServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxAnalysisService#GetSessioninRange[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sessions in given range (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxAnalysisService#DoCategoryAnalysis[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return category information (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxAnalysisService#DoMonthlySessionAnalysis[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return monthly sessions (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxAnalysisService#SessionsInTimeRange[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sessions in a given TimeRange (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxAnalysisService#SessionsInTimeRangeForNoneCase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in geeting sessions for a TimeRange (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackService#createpost [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  create Feedbackform used for post directive (39 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  Access denied on creating Feedbackform used for post directive (19 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackService#DeleteFeedabck[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete feedback of given id (44 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return Error in Delete Feedbackform (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackService#update [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  Update Feedbackform used for put directive (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackService#list All FeedbackForms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get list of created Feedback form (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should access denied in getting list of created Feedback form (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackService#get Feedback Form by Id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get created Feedback form using Id (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get created Feedbackform list using Id for session (29 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should user is not authorized for creating a feedbackform list (37 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormResponseRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /fetch Stored Responses for particular session[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return stored Responses from feedbackformsresponse (48 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /error message for fetchFeedbackResponse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error while fetching response (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /FeedbackForms for today[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all active feedbackForms for today (41 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /return error for getFeedbackFormForToday [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error while getting active feedbackForms (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /store user response on the session[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should store user responses for todays feedbacks (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /return error for storeFeedbacksResponse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error while storing responses (53 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /Ban users details[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return ban users information (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /return error for getBanUserDetails[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error for ban users information (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for FeedbackAccessDeniedError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (6 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for BadRequest [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (41 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for NotFound error [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStatisticalRouteSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET/ GetStatistic endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return knolx details (73 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in getting knolx details (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return knolx details for specific time (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error for specific time (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- should return unauthorized when clientId is not provided !!! IGNORED !!![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- should return unauthorized when clientSecret is not provided !!! IGNORED !!![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- should return unauthorized when both client id and clientSecret is not provided !!! IGNORED !!![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- should return unauthorized when wrong client id and clientSecret provided !!! IGNORED !!![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return internal server error when clientId and clientSecret not found (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#getSessionsInMonth[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sessions of given month (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#ExpiringNext sessionsForToday [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  return today's ExpiringNext sessions (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#ExpiringNextNotReminded sessionsForToday [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  return today's ExpiringNextNotReminded sessions (32 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#SchedulingNext sessionsForToday [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return today's SchedulingNext sessions (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#SchedulingNextUnNotified sessionsForToday [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return today's SchedulingNextUnNotified sessions (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#update Mail status [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update notification (52 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#update Mail status [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false (48 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#update Mail status [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update reminder  (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#getAllNotAttendingUsers [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get list of all emails of not attending users (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mReturn Error SchedulerService#getAllNotAttendingUsers [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in getting list of all emails of not attending users (54 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService# getSessionById[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session by id  (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#getUsersDidNotAttendSession[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return list of user not attend session with topic (23 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService# getSessionById[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService# getAllBannedUsers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all banned users (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#getAllCoreMembers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all core users (39 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSchedulerService#getAllBannedUsersOfLastMonth[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all banned users (23 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewUserServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNewUserService#getAllUsers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all users (211 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (29 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /Create Feedbackform[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create Feedbackform by post directive (64 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /Create Feedbackform for error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create Feedbackform by post directive check error (37 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDELETE /check error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (43 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDELETE /status endpoint [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return current status (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut/Update Feedback endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update data from feedbackform  (56 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut/Update Feedback endpoint check error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update data from feedbackform  (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Update Feedback endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get feedbackform  to update (53 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/Update Feedback endpoint to check error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check error (69 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/get list of  Feedbackforms [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return created feedbackform as list  (76 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/get list of  Feedbackforms for sessions [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return created feedbackformas list used for sessions  (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/get list of  Feedbackforms for sessions [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet/error message for list of feedbackforms [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error for feedbackformas list  (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for FeedbackAccessDeniedError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for NotFound error [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcheck Translate error for BadRequest [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (29 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSortBySpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSort by fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do Sort by fields in Descending (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give error in Sort (4 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#delete user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (30 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete user (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not delete if user is not admin or superadmin (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#update user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (19 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in updating user status (7 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update user when password not given and user not banned (78 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update user when password not given and user are banned (14 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update user when password is given and user is banned (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update user when password is given and not banned (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#update user department[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update user when password not given and user not banned (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#search users[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search user for all when email provided (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search user for banned when email provided (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search user for allowed when email provided (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search user for active when email provided (23 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search user for suspended when email provided (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search all users when email not provided (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search banned users when email not provided (29 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search allowed users when email not provided (56 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search active users when email not provided (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search suspended users when email not provided (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#get user status[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get user's status (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get user's status if user is not admin or superuser (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#get user list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get user's list when email not provided (45 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get user's list when email provided  (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#getActiveAndUnBannedEmails users[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return get Active And UnBanned Emails (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in get Active And UnBanned Emails (26 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#getUserInformationByEmail users[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return user Information by mail (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in user Information by mail (9 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService change participant status[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return update user status (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error update user status (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error for unauthorised User (14 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementService#banUser users[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error update ban user (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return update ban user (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKnolxAnalysisRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /knolxanalysis/columnchart endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session in given time range  (211 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /knolxanalysis/columnchart endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /knolxanalysis/piechart endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return categoryInformation in given range  (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /knolxanalysis/piechart endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /knolxanalysis/linechart endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return monthly knolx information  (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /knolxanalysis/linechart endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (32 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut/knolxanalysis/session in time range check error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (33 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut/knolxanalysis/session in time range[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should list of sessions (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for SessionNotFound [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (14 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStringExtensionsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStringOps#toOption[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert empty string to None (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert nonempty string to Some (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalendarRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelete /freeslot/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete given slot  (113 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelete /freeslot/id endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /freeslot endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all free slots  (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /freeslot endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /freeslot endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should should insert free slot  (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /freeslot endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender with no search keyword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all sessions  (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender with no search keyword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender with search keyword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all sessions  (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender with search keyword[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender session in month[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return sessions in given month  (42 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender session in month[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (30 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return pending sessions count  (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calender [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /session/email endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send email to presenter (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST /session/email endpoints[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send email to all admins/superUser (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return session of given Id  (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should decline session  (33 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update the given session  (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error slot not found  (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update date for given pending session  (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /calendar/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error  (20 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for SlotNotFoundError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for SessionNotFoundError [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for AccessDenied [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMailerServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNotificationService/sendMessage[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send email to user (152 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send email to multiple user (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormReportServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormReportService#manage user FeedbackReports [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should manage all feedback reports for user (69 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormReportService#Manage All FeedbackReports [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should manage all feedback reports  (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet all feedback report based on Date[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should ordering of reports must be Descending (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormReportService#Fetch user FeedbackReports [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fetch Responses by session Id for single user  (29 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in Fetching Responses by session Id for single user  (36 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeedbackFormReportService#Fetch FeedbackReports in all users[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fetch Responses by session Id for all users  (31 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaseRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaseRoutes#seal[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add an exception handler (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add a rejection handler (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaseRoutes#fromStringUnmarshaller[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should parse string (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#addRecommendation [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  Suggest Recommendation used post directive (159 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getRecommendationById [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  return recommendation of given id (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should  return error in getting a recommendation of given id (9 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#approveRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should approve recommendation of given id (43 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#declineRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should decline recommendation of given id (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#pendingRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pending recommendation of given id (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#doneRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should done recommendation of given id (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#allPendingRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all pending recommendation count by filter (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#bookRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should book recommendation of given id (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#cancelBookedRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should book recommendation of given id (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getAllRecommendation [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get list of all recommendation (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getPendingRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all pending recommendation (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getApproveRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all approve recommendation (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getDeclinedRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all declined recommendation (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getBookdRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all booked recommendation (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getDoneRecommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get all done recommendation (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#listRecommendation with filter all[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all recommendation (6 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#listRecommendation with filter pending[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return pending recommendation (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#listRecommendation with filter approved[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return approved recommendation (9 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#listRecommendation with filter declined[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return declined recommendation (6 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#listRecommendation with filter book[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return booked recommendation (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#listRecommendation with filter done[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return done recommendation (7 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#getVote for recommendation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return vote of recommendation (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#upVote with filter alreadyVoted=true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return vote of recommendation (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#upVote with filter alreadyVoted=false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return vote of recommendation (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#downVote with filter alreadyVoted=true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return vote of recommendation (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#downVote with filter alreadyVoted=false[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return vote of recommendation (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRecommendationService#inserting the response[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return insert Response (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return insert Response for none (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThrowableExtensionsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThrowableOps#printInfo[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Throwable to String properly (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOptionSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOptionOps#validate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate option properly (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUserManagementRoutesSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET/ get user status endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return user's status (40 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET/ delete user endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return user's status (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST/ update user status endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update user's status (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPOST/ update user department endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update user's department (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error in updating user's department (14 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET/ get users list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return users when email id not provided (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should POST/ update participant status endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should change participant status (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return error (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return users when email id is provided (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return users information by email (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error when email not found (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return get Active And UnBanned Emails (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error when get Active And UnBanned Emails not found (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return ban users by email (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGET/ get users [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return users when email id not provided (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error email id not provided (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return users when email id is provided (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return error email id is provided (16 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for User Not Found Error [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (6 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Email Already Exists [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (6 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Invalid Credential[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (7 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Token Expired[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for No Forgot Password Request Found[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (5 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Access Denied[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (6 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Account deactivated[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (4 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for account not activated[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Unauthorize Credential[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEnumFormatBuilderSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEnumFormatBuilder#build[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should build enum serializer (5 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStatisticServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStatisticalService#getKnolxDetails[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Give knolx details for all (79 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Give knolx details for specific period of time (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSlotRouteSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPost /slots endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create a new slot (124 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return status code internal server error (40 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return status code unauthorized (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPut /slots/id [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update the slot based on the given information (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return status code internal server error (23 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return status code unauthorized (21 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelete /slots/id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete the slot if that slot is not booked (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return status code forbidden if the slot is booked (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return status code not found if the slot does not exist (14 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return status code unauthorized (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGet /getFourMonths endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return slots (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCheck Translate error for Access Denied [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return translate error (9 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDurationConverterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDurationConverter#toScalaFiniteDuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Duration to FiniteDuration properly (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mInfoServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mInfoService#getUpTime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get uptime (50 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mInfoService#getDbStatus[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return active DbStatus (5 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return inactive DbStatus (1 second, 14 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMeetingServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWebexMeetingService[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give meeting response *** FAILED *** (3 seconds, 682 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  A timeout occurred waiting for a future to complete. Waited 3 seconds. (MeetingServiceSpec.scala:82)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWebexMeetingService error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give meeting response (7 seconds, 9 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 14 seconds, 466 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 476[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 41, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 475, failed 1, canceled 0, ignored 4, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.recommendation.RecommendationServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.BaseRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.knolxanalysis.KnolxAnalysisServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.session.NewSessionRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.session.CalendarRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.session.CategoryServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.slot.SlotServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.usermanagement.UserManagementRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.mailservice.MailerServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.DurationConverterSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.user.KnolxUserAnalysisRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.validation.OptionSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.usermanagemant.NewUserServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.recommendation.RecommendationRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.session.NewSessionServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.SortBySpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.statistic.StatisticServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.scheduler.SchedulerServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.feedbackform.FeedbackFormRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.knolxanalysis.KnolxAnalysisRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.feedbackform.FeedbackFormServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.usermanagement.NewUserRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.session.CategoryRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.json.CommonFormatsSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.slot.SlotRouteSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.info.InfoServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.session.CalendarServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.feedbackform.FeedbackFormResponseRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.statistic.StatisticalRouteSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.info.InfoRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.routes.feedbackform.FeedbackFormReportRoutesSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.feedbackform.FeedbackFormResponseServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.ThrowableExtensionsSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.StringExtensionsSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.usermanagemant.UserManagementServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.feedbackform.FeedbackFormReportServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.json.EnumFormatBuilderSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.utils.TryExtensionsSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.services.user.KnolxUserAnalysisServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.ClientCredentilaSpec[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	com.knoldus.services.session.MeetingServiceSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

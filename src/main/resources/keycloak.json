@@ -1,0 +1,8 @@
+{
+  "realm": "knoldus",
+  "auth-server-url": "http://auth.knoldus.com/auth",
+  "ssl-required": "external",
+  "resource": "leaderboard-ui",
+  "public-client": true,
+  "confidential-port": 0
+}

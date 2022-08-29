@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/shashikant/Desktop/knolx-service/src/main/scala/com/knoldus/services/session/MeetingService.scala:69:30: pattern var err in value $anonfun is never used: use a wildcard `_` or suppress this warning with `err@_`[0m
+[0m[[0m[33mwarn[0m] [0m[0m                case Failure(err) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
